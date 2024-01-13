@@ -35,6 +35,10 @@ author = "HedgeDoc e.V."
 
 ################################### English language #####################################
 
+[[Menus.footer]]
+Name="Impressum & Datenschutz"
+Url="/impressum"
+
 [Languages.de]
 languageName = "De"
 languageCode = "de-de"
