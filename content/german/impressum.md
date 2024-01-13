@@ -16,4 +16,4 @@ Vertreten durch: David Mehren, Erik Michelson & Tilman Vatteroth
 
 ## Kontakt
 Telefon: 015678198225  
-E-Mail: datenschutz@hedgedoc.cloud
+E-Mail: datenschutz@hedgedoc.org
