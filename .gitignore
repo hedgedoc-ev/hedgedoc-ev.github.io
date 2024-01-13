@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2020 The HedgeDoc developers (see AUTHORS file)
+#
+# SPDX-License-Identifier: CC0-1.0
+
+resources/_gen
+build/
+public/
+.idea/
+static/fonts
+node_modules
+yarn-error.log
+content/english/releases/*.md
+.hugo_build.lock

@@ -1,0 +1,46 @@
+# SPDX-FileCopyrightText: 2020 The HedgeDoc developers (see AUTHORS file)
+#
+# SPDX-License-Identifier: AGPL-3.0-only
+
+################################### Default Configuration ############################
+
+baseurl = "https://ev.hedgedoc.org/"
+title = "HedgeDoc - Collaborative markdown editor"
+enableEmoji = true
+
+# post excert
+summarylength = "20"
+
+# google analytics
+googleAnalytics = "" # Ex: UA-123-45
+
+# disable language
+disableLanguages = [] # disable language from here
+defaultContentLanguage = "de"
+enableRobotsTXT = true
+
+########################### Default parameters ##########################
+
+[params]
+logo = "images/banner/hedgedoc_banner_color_horizontal.svg"
+logo_width = "100px"
+logo_height = "25px"
+
+copyright = "By the HedgeDoc developers. Made with ![love](/images/heart.svg)️ and [Hugo](https://gohugo.io/)."
+
+
+# Meta data
+description = "Informationen über den HedgeDoc e.V."
+author = "HedgeDoc e.V."
+
+################################### English language #####################################
+
+[Languages.de]
+languageName = "De"
+languageCode = "de-de"
+contentDir = "content/german"
+weight = 1
+
+
+[markup.goldmark.renderer]
+unsafe= true

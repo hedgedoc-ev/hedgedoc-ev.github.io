@@ -1,0 +1,63 @@
+/**
+SPDX-FileCopyrightText: 2020 The HedgeDoc developers (see AUTHORS file)
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+**/
+
+a:focus,
+.btn:focus,
+.btn:active:focus {
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.bg-dark {
+  color: $light;
+}
+
+.bg-primary {
+  .btn-primary {
+    border: solid 2px #fdd49a;
+
+    &:hover,
+    &:focus {
+      background-color: $white;
+      color: $primary;
+      border-color: $white;
+    }
+  }
+  .btn-outline-primary {
+    border: solid 2px transparent;
+    color: $primary;
+    background-color: $white;
+
+    &:hover,
+    &:focus {
+      color: $white;
+      background-color: $primary;
+      border-color: #fdd49a;
+    }
+  }
+}
+
+.docker-command {
+  pre {
+    padding: 10px 20px;
+    background: #f7f7f9;
+  }
+  code:before {
+    content: "> "
+  }
+}
