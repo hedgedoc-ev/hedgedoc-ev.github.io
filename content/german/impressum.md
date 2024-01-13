@@ -12,7 +12,7 @@ Pulverstraße 1
 
 Vereinsregister: VR 7845  
 Registergericht: Amtsgericht Dortmund  
-Vertreten durch: David Mehren, Erik Michelson && Tilman Vatteroth
+Vertreten durch: David Mehren, Erik Michelson & Tilman Vatteroth
 
 ## Kontakt
 Telefon: 015678198225  
