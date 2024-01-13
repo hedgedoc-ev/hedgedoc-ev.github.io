@@ -3,7 +3,6 @@ title: "Impressum"
 description : "Impressum"
 draft: false
 ---
-
 Alle Angaben sind gemäß §5 TMG
 
 ## Anschrift
