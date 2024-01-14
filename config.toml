@@ -29,7 +29,7 @@ logo_height = "25px"
 author = "HedgeDoc e.V."
 
 [Languages.de.params]
-copyright = "Erstellt von den HedgeDoc-Entwicklern. Mit ![love](/images/heart.svg)️ und [Hugo](https://gohugo.io/)."
+copyright = "Erstellt von den HedgeDoc-Entwicklern. Mit ![Liebe](/images/heart.svg)️ und [Hugo](https://gohugo.io/)."
 description = "Informationen über den HedgeDoc e.V."
 
 [Languages.en.params]
