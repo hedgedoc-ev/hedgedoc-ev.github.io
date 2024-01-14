@@ -26,18 +26,15 @@ enableRobotsTXT = true
 logo = "images/banner/hedgedoc_banner_color_horizontal.svg"
 logo_width = "100px"
 logo_height = "25px"
-
-# Meta data
 author = "HedgeDoc e.V."
 
 [Languages.de.params]
 copyright = "Erstellt von den HedgeDoc-Entwicklern. Mit ![love](/images/heart.svg)️ und [Hugo](https://gohugo.io/)."
+description = "Informationen über den HedgeDoc e.V."
 
 [Languages.en.params]
 copyright = "By the HedgeDoc developers. Made with ![love](/images/heart.svg)️ and [Hugo](https://gohugo.io/)."
-
-
-################################### English language #####################################
+description = "Informationen about the HedgeDoc e.V."
 
 [[Languages.de.Menus.footer]]
 Name="Impressum"
@@ -51,14 +48,12 @@ Url="/impressum"
 languageName = "Deutsch"
 languageCode = "de-de"
 contentDir = "content/german"
-description = "Informationen über den HedgeDoc e.V."
 weight = 1
 
 [Languages.en]
 languageName = "English"
 languageCode = "de-de"
 contentDir = "content/english"
-description = "Informationen about the HedgeDoc e.V."
 weight = 2
 
 
