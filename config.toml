@@ -5,7 +5,7 @@
 ################################### Default Configuration ############################
 
 baseurl = "https://ev.hedgedoc.org/"
-title = "HedgeDoc - Collaborative markdown editor"
+title = "HedgeDoc e.V."
 enableEmoji = true
 
 # post excert
@@ -17,6 +17,7 @@ googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
 defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 
 ########################### Default parameters ##########################
@@ -27,10 +28,7 @@ logo_width = "100px"
 logo_height = "25px"
 
 copyright = "By the HedgeDoc developers. Made with ![love](/images/heart.svg)️ and [Hugo](https://gohugo.io/)."
-
-
 # Meta data
-description = "Informationen über den HedgeDoc e.V."
 author = "HedgeDoc e.V."
 
 ################################### English language #####################################
@@ -40,10 +38,18 @@ Name="Impressum"
 Url="/impressum"
 
 [Languages.de]
-languageName = "De"
+languageName = "Deutsch"
 languageCode = "de-de"
 contentDir = "content/german"
+description = "Informationen über den HedgeDoc e.V."
 weight = 1
+
+[Languages.en]
+languageName = "English"
+languageCode = "de-de"
+contentDir = "content/english"
+description = "Informationen about the HedgeDoc e.V."
+weight = 2
 
 
 [markup.goldmark.renderer]
