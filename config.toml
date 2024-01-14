@@ -27,14 +27,24 @@ logo = "images/banner/hedgedoc_banner_color_horizontal.svg"
 logo_width = "100px"
 logo_height = "25px"
 
-copyright = "By the HedgeDoc developers. Made with ![love](/images/heart.svg)️ and [Hugo](https://gohugo.io/)."
 # Meta data
 author = "HedgeDoc e.V."
 
+[Languages.de.params]
+copyright = "Erstellt von den HedgeDoc-Entwicklern. Mit ![love](/images/heart.svg)️ und [Hugo](https://gohugo.io/)."
+
+[Languages.en.params]
+copyright = "By the HedgeDoc developers. Made with ![love](/images/heart.svg)️ and [Hugo](https://gohugo.io/)."
+
+
 ################################### English language #####################################
 
-[[Menus.footer]]
+[[Languages.de.Menus.footer]]
 Name="Impressum"
+Url="/impressum"
+
+[[Languages.en.Menus.footer]]
+Name="Imprint"
 Url="/impressum"
 
 [Languages.de]
