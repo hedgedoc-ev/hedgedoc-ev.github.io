@@ -36,12 +36,20 @@ description = "Informationen über den HedgeDoc e.V."
 copyright = "By the HedgeDoc developers. Made with ![love](/images/heart.svg)️ and [Hugo](https://gohugo.io/)."
 description = "Informationen about the HedgeDoc e.V."
 
+[Languages.tr.params]
+copyright = "HedgeDoc geliştiricileri tarafından yapılmıştır. Sevgiyle ![love](/images/heart.svg)️ ve [Hugo](https://gohugo.io/) ile."
+description = "HedgeDoc e.V. hakkında bilgiler"
+
 [[Languages.de.Menus.footer]]
 Name="Impressum"
 Url="/impressum"
 
 [[Languages.en.Menus.footer]]
 Name="Imprint"
+Url="/impressum"
+
+[[Languages.tr.Menus.footer]]
+Name="Künye"
 Url="/impressum"
 
 [Languages.de]
@@ -55,6 +63,12 @@ languageName = "English"
 languageCode = "en-US"
 contentDir = "content/english"
 weight = 2
+
+[Languages.tr]
+languageName = "Turkish"
+languageCode = "tr-TR"
+contentDir = "content/turkish"
+weight = 3
 
 
 [markup.goldmark.renderer]
